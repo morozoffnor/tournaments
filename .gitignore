@@ -1,0 +1,32 @@
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Go
+/backend/bin/
+/backend/tmp/
+*.test
+*.out
+vendor/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+.pnpm-debug.log
+npm-debug.log*
+yarn-error.log*
+
+# SQLite dev databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
